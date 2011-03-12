@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1E48CC132946D1000AD25F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CB132946D1000AD25F /* UIKit.framework */; };
+		BA1E48CE132946D2000AD25F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CD132946D2000AD25F /* Foundation.framework */; };
+		BA1E48D0132946D2000AD25F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CF132946D2000AD25F /* CoreGraphics.framework */; };
+		BA1E48D2132946D2000AD25F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48D1132946D2000AD25F /* CoreData.framework */; };
+		BA1E48D8132946D2000AD25F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA1E48D6132946D2000AD25F /* InfoPlist.strings */; };
+		BA1E48DB132946D2000AD25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E48DA132946D2000AD25F /* main.m */; };
+		BA1E48DE132946D2000AD25F /* League_ManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E48DD132946D2000AD25F /* League_ManagerAppDelegate.m */; };
+		BA1E48E1132946D2000AD25F /* League_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA1E48DF132946D2000AD25F /* League_Manager.xcdatamodeld */; };
+		BA1E48E7132946D2000AD25F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E48E6132946D2000AD25F /* RootViewController.m */; };
+		BA1E48EA132946D2000AD25F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1E48E8132946D2000AD25F /* RootViewController.xib */; };
+		BA1E48F1132946D2000AD25F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CB132946D1000AD25F /* UIKit.framework */; };
+		BA1E48F2132946D2000AD25F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CD132946D2000AD25F /* Foundation.framework */; };
+		BA1E48F3132946D2000AD25F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48CF132946D2000AD25F /* CoreGraphics.framework */; };
+		BA1E48F4132946D2000AD25F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E48D1132946D2000AD25F /* CoreData.framework */; };
+		BA1E48FC132946D2000AD25F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA1E48FA132946D2000AD25F /* InfoPlist.strings */; };
+		BA1E48FF132946D2000AD25F /* League_ManagerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BA1E48FE132946D2000AD25F /* League_ManagerTests.h */; };
+		BA1E4901132946D2000AD25F /* League_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E4900132946D2000AD25F /* League_ManagerTests.m */; };
+		BA1E490D132946EE000AD25F /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1E490B132946EE000AD25F /* MainWindow-iPad.xib */; };
+		BA227EC6132B0E7C00F3D25C /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA227EC4132B0E7B00F3D25C /* PlayerViewController.m */; };
+		BA227EC7132B0E7C00F3D25C /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA227EC5132B0E7B00F3D25C /* PlayerViewController.xib */; };
+		BAC9ECAE132964A000EEABF7 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9ECAC1329649F00EEABF7 /* TeamViewController.m */; };
+		BAC9ECAF132964A000EEABF7 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC9ECAD1329649F00EEABF7 /* TeamViewController.xib */; };
+		BAC9ECB21329758A00EEABF7 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9ECB11329758900EEABF7 /* PlayerListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1E48F5132946D2000AD25F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1E48BE132946D1000AD25F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1E48C6132946D1000AD25F;
+			remoteInfo = "League Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA1E48C7132946D1000AD25F /* League Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1E48CB132946D1000AD25F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA1E48CD132946D2000AD25F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA1E48CF132946D2000AD25F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA1E48D1132946D2000AD25F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA1E48D5132946D2000AD25F /* League Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "League Manager-Info.plist"; sourceTree = "<group>"; };
+		BA1E48D7132946D2000AD25F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA1E48D9132946D2000AD25F /* League Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League Manager-Prefix.pch"; sourceTree = "<group>"; };
+		BA1E48DA132946D2000AD25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA1E48DC132946D2000AD25F /* League_ManagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = League_ManagerAppDelegate.h; sourceTree = "<group>"; };
+		BA1E48DD132946D2000AD25F /* League_ManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = League_ManagerAppDelegate.m; sourceTree = "<group>"; };
+		BA1E48E0132946D2000AD25F /* League_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = League_Manager.xcdatamodel; sourceTree = "<group>"; };
+		BA1E48E5132946D2000AD25F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BA1E48E6132946D2000AD25F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BA1E48E9132946D2000AD25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		BA1E48F0132946D2000AD25F /* League ManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "League ManagerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1E48F9132946D2000AD25F /* League ManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "League ManagerTests-Info.plist"; sourceTree = "<group>"; };
+		BA1E48FB132946D2000AD25F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA1E48FD132946D2000AD25F /* League ManagerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League ManagerTests-Prefix.pch"; sourceTree = "<group>"; };
+		BA1E48FE132946D2000AD25F /* League_ManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = League_ManagerTests.h; sourceTree = "<group>"; };
+		BA1E4900132946D2000AD25F /* League_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = League_ManagerTests.m; sourceTree = "<group>"; };
+		BA1E490C132946EE000AD25F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		BA227EC3132B0E7B00F3D25C /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		BA227EC4132B0E7B00F3D25C /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		BA227EC5132B0E7B00F3D25C /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		BAC9ECAB1329649F00EEABF7 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		BAC9ECAC1329649F00EEABF7 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		BAC9ECAD1329649F00EEABF7 /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewController.xib; sourceTree = "<group>"; };
+		BAC9ECB01329758900EEABF7 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		BAC9ECB11329758900EEABF7 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1E48C4132946D1000AD25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E48CC132946D1000AD25F /* UIKit.framework in Frameworks */,
+				BA1E48CE132946D2000AD25F /* Foundation.framework in Frameworks */,
+				BA1E48D0132946D2000AD25F /* CoreGraphics.framework in Frameworks */,
+				BA1E48D2132946D2000AD25F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1E48EC132946D2000AD25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E48F1132946D2000AD25F /* UIKit.framework in Frameworks */,
+				BA1E48F2132946D2000AD25F /* Foundation.framework in Frameworks */,
+				BA1E48F3132946D2000AD25F /* CoreGraphics.framework in Frameworks */,
+				BA1E48F4132946D2000AD25F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1E48BC132946D1000AD25F = {
+			isa = PBXGroup;
+			children = (
+				BA1E48D3132946D2000AD25F /* League Manager */,
+				BA1E48F7132946D2000AD25F /* League ManagerTests */,
+				BA1E48CA132946D1000AD25F /* Frameworks */,
+				BA1E48C8132946D1000AD25F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1E48C8132946D1000AD25F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E48C7132946D1000AD25F /* League Manager.app */,
+				BA1E48F0132946D2000AD25F /* League ManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1E48CA132946D1000AD25F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E48CB132946D1000AD25F /* UIKit.framework */,
+				BA1E48CD132946D2000AD25F /* Foundation.framework */,
+				BA1E48CF132946D2000AD25F /* CoreGraphics.framework */,
+				BA1E48D1132946D2000AD25F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA1E48D3132946D2000AD25F /* League Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E490A132946EC000AD25F /* iPad */,
+				BA1E48DC132946D2000AD25F /* League_ManagerAppDelegate.h */,
+				BA1E48DD132946D2000AD25F /* League_ManagerAppDelegate.m */,
+				BA1E48E5132946D2000AD25F /* RootViewController.h */,
+				BA1E48E6132946D2000AD25F /* RootViewController.m */,
+				BA1E48E8132946D2000AD25F /* RootViewController.xib */,
+				BA1E48DF132946D2000AD25F /* League_Manager.xcdatamodeld */,
+				BA1E48D4132946D2000AD25F /* Supporting Files */,
+				BAC9ECAB1329649F00EEABF7 /* TeamViewController.h */,
+				BAC9ECAC1329649F00EEABF7 /* TeamViewController.m */,
+				BAC9ECB01329758900EEABF7 /* PlayerListViewController.h */,
+				BAC9ECB11329758900EEABF7 /* PlayerListViewController.m */,
+				BA227EC3132B0E7B00F3D25C /* PlayerViewController.h */,
+				BA227EC4132B0E7B00F3D25C /* PlayerViewController.m */,
+				BA227EC5132B0E7B00F3D25C /* PlayerViewController.xib */,
+			);
+			path = "League Manager";
+			sourceTree = "<group>";
+		};
+		BA1E48D4132946D2000AD25F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E48D5132946D2000AD25F /* League Manager-Info.plist */,
+				BA1E48D6132946D2000AD25F /* InfoPlist.strings */,
+				BA1E48D9132946D2000AD25F /* League Manager-Prefix.pch */,
+				BA1E48DA132946D2000AD25F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1E48F7132946D2000AD25F /* League ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E48FE132946D2000AD25F /* League_ManagerTests.h */,
+				BA1E4900132946D2000AD25F /* League_ManagerTests.m */,
+				BA1E48F8132946D2000AD25F /* Supporting Files */,
+			);
+			path = "League ManagerTests";
+			sourceTree = "<group>";
+		};
+		BA1E48F8132946D2000AD25F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E48F9132946D2000AD25F /* League ManagerTests-Info.plist */,
+				BA1E48FA132946D2000AD25F /* InfoPlist.strings */,
+				BA1E48FD132946D2000AD25F /* League ManagerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1E490A132946EC000AD25F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9ECAD1329649F00EEABF7 /* TeamViewController.xib */,
+				BA1E490B132946EE000AD25F /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1E48C6132946D1000AD25F /* League Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1E4904132946D2000AD25F /* Build configuration list for PBXNativeTarget "League Manager" */;
+			buildPhases = (
+				BA1E48C3132946D1000AD25F /* Sources */,
+				BA1E48C4132946D1000AD25F /* Frameworks */,
+				BA1E48C5132946D1000AD25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League Manager";
+			productName = "League Manager";
+			productReference = BA1E48C7132946D1000AD25F /* League Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1E48EF132946D2000AD25F /* League ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1E4907132946D2000AD25F /* Build configuration list for PBXNativeTarget "League ManagerTests" */;
+			buildPhases = (
+				BA1E48EB132946D2000AD25F /* Sources */,
+				BA1E48EC132946D2000AD25F /* Frameworks */,
+				BA1E48ED132946D2000AD25F /* Resources */,
+				BA1E48EE132946D2000AD25F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1E48F6132946D2000AD25F /* PBXTargetDependency */,
+			);
+			name = "League ManagerTests";
+			productName = "League ManagerTests";
+			productReference = BA1E48F0132946D2000AD25F /* League ManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1E48BE132946D1000AD25F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "World Wide Group";
+			};
+			buildConfigurationList = BA1E48C1132946D1000AD25F /* Build configuration list for PBXProject "League Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA1E48BC132946D1000AD25F;
+			productRefGroup = BA1E48C8132946D1000AD25F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1E48C6132946D1000AD25F /* League Manager */,
+				BA1E48EF132946D2000AD25F /* League ManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1E48C5132946D1000AD25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E48D8132946D2000AD25F /* InfoPlist.strings in Resources */,
+				BA1E48EA132946D2000AD25F /* RootViewController.xib in Resources */,
+				BA1E490D132946EE000AD25F /* MainWindow-iPad.xib in Resources */,
+				BAC9ECAF132964A000EEABF7 /* TeamViewController.xib in Resources */,
+				BA227EC7132B0E7C00F3D25C /* PlayerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1E48ED132946D2000AD25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E48FC132946D2000AD25F /* InfoPlist.strings in Resources */,
+				BA1E48FF132946D2000AD25F /* League_ManagerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA1E48EE132946D2000AD25F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1E48C3132946D1000AD25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E48DB132946D2000AD25F /* main.m in Sources */,
+				BA1E48DE132946D2000AD25F /* League_ManagerAppDelegate.m in Sources */,
+				BA1E48E1132946D2000AD25F /* League_Manager.xcdatamodeld in Sources */,
+				BA1E48E7132946D2000AD25F /* RootViewController.m in Sources */,
+				BAC9ECAE132964A000EEABF7 /* TeamViewController.m in Sources */,
+				BAC9ECB21329758A00EEABF7 /* PlayerListViewController.m in Sources */,
+				BA227EC6132B0E7C00F3D25C /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1E48EB132946D2000AD25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E4901132946D2000AD25F /* League_ManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1E48F6132946D2000AD25F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1E48C6132946D1000AD25F /* League Manager */;
+			targetProxy = BA1E48F5132946D2000AD25F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1E48D6132946D2000AD25F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1E48D7132946D2000AD25F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA1E48E8132946D2000AD25F /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1E48E9132946D2000AD25F /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		BA1E48FA132946D2000AD25F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1E48FB132946D2000AD25F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA1E490B132946EE000AD25F /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1E490C132946EE000AD25F /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1E4902132946D2000AD25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA1E4903132946D2000AD25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BA1E4905132946D2000AD25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League Manager/League Manager-Prefix.pch";
+				INFOPLIST_FILE = "League Manager/League Manager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA1E4906132946D2000AD25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League Manager/League Manager-Prefix.pch";
+				INFOPLIST_FILE = "League Manager/League Manager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA1E4908132946D2000AD25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/League Manager.app/League Manager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League ManagerTests/League ManagerTests-Prefix.pch";
+				INFOPLIST_FILE = "League ManagerTests/League ManagerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BA1E4909132946D2000AD25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/League Manager.app/League Manager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League ManagerTests/League ManagerTests-Prefix.pch";
+				INFOPLIST_FILE = "League ManagerTests/League ManagerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1E48C1132946D1000AD25F /* Build configuration list for PBXProject "League Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1E4902132946D2000AD25F /* Debug */,
+				BA1E4903132946D2000AD25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1E4904132946D2000AD25F /* Build configuration list for PBXNativeTarget "League Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1E4905132946D2000AD25F /* Debug */,
+				BA1E4906132946D2000AD25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1E4907132946D2000AD25F /* Build configuration list for PBXNativeTarget "League ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1E4908132946D2000AD25F /* Debug */,
+				BA1E4909132946D2000AD25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA1E48DF132946D2000AD25F /* League_Manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA1E48E0132946D2000AD25F /* League_Manager.xcdatamodel */,
+			);
+			currentVersion = BA1E48E0132946D2000AD25F /* League_Manager.xcdatamodel */;
+			path = League_Manager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA1E48BE132946D1000AD25F /* Project object */;
+}

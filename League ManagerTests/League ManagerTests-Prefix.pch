@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'League ManagerTests' target in the 'League ManagerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
